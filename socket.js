@@ -96,10 +96,10 @@ let users = {
 		time: 72
 	},
 	dadkk: {
-		time: 105
+		time: 106
 	},
 	jmkwt: {
-		time: 105
+		time: 46
 	},
 	wwkpl: {
 		time: 105
