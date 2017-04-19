@@ -66,6 +66,8 @@ module.exports = function(io) {
 				else {
 					users[name].data = msg.data;
 					users[name].score = msg.score;
+					users[name].right = msg.right;
+					users[name].wrong = msg.wrong;
 				}
 				console.log(users[name].data);
 				socket.emit('done');
