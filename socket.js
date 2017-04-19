@@ -36,64 +36,64 @@ let users = {
 		time: 105
 	},
 	htlyu: {
-		time: 105
+		time: 130
 	},
 	ddymt: {
-		time: 105
+		time: 122
 	},
 	ipxau: {
-		time: 105
+		time: 148
 	},
 	pjlhk: {
-		time: 105
+		time: 146
 	},
 	vanen: {
-		time: 105
+		time: 152
 	},
 	nbmxe: {
-		time: 105
+		time: 174
 	},
 	jiehp: {
-		time: 105
+		time: 18
 	},
 	pvqob: {
-		time: 105
+		time: 90
 	},
 	ejluo: {
-		time: 105
+		time: 50
 	},
 	bywvt: {
-		time: 105
+		time: 70
 	},
 	ektwj: {
-		time: 105
+		time: 128
 	},
 	ipqga: {
-		time: 105
+		time: 128
 	},
 	rkxgf: {
-		time: 105
+		time: 186
 	},
 	qppiw: {
-		time: 105
+		time: 110
 	},
 	qtmyk: {
-		time: 105
+		time: 116
 	},
 	exeoh: {
-		time: 105
+		time: 162
 	},
 	ylucb: {
-		time: 105
+		time: 80
 	},
 	dsgzq: {
-		time: 105
+		time: 118
 	},
 	vfcln: {
-		time: 105
+		time: 84
 	},
 	erepb: {
-		time: 105
+		time: 72
 	},
 	dadkk: {
 		time: 105
