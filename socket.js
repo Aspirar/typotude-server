@@ -34,6 +34,90 @@ let users = {
 	},
 	user12: {
 		time: 105
+	},
+	htlyu: {
+		time: 105
+	},
+	ddymt: {
+		time: 105
+	},
+	ipxau: {
+		time: 105
+	},
+	pjlhk: {
+		time: 105
+	},
+	vanen: {
+		time: 105
+	},
+	nbmxe: {
+		time: 105
+	},
+	jiehp: {
+		time: 105
+	},
+	pvqob: {
+		time: 105
+	},
+	ejluo: {
+		time: 105
+	},
+	bywvt: {
+		time: 105
+	},
+	ektwj: {
+		time: 105
+	},
+	ipqga: {
+		time: 105
+	},
+	rkxgf: {
+		time: 105
+	},
+	qppiw: {
+		time: 105
+	},
+	qtmyk: {
+		time: 105
+	},
+	exeoh: {
+		time: 105
+	},
+	ylucb: {
+		time: 105
+	},
+	dsgzq: {
+		time: 105
+	},
+	vfcln: {
+		time: 105
+	},
+	erepb: {
+		time: 105
+	},
+	dadkk: {
+		time: 105
+	},
+	jmkwt: {
+		time: 105
+	},
+	wwkpl: {
+		time: 105
+	},
+	wqblm: {
+		time: 105
+	},
+	ucnec: {
+		time: 105
+	},
+	dxodb: {
+		time: 105
+	},
+	tgqch: {
+		time: 105
+	},
+	wwqoo: {
+		time: 105
 	}
 };
 
@@ -47,12 +131,12 @@ module.exports = function(io) {
 			console.log(name);
 			if (!users[name]) socket.emit('reject');
 			else {
-				socket.emit('time', { seconds: users[name].time - 5 });
+				socket.emit('time', { seconds: users[name].time - 10 });
 				let timer = setInterval(function () {
 					if (users[name].time) {
 						users[name].time -= 1;
 					}
-					if (users[name].time === 5) socket.emit('get data');
+					if (users[name].time === 10) socket.emit('get data');
 					if (users[name].time <= 0) clearInterval(timer);
 				}, 1000);
 			}
